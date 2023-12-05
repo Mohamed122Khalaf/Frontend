@@ -1,0 +1,388 @@
+*{
+    font-family: sans-serif;
+}
+.link1{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(4, 4, 83);
+}
+body{
+    position: relative;
+    margin-right: 0px;
+    overflow-x:hidden ;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+.header h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(4, 4, 83);
+    margin: 25px 100px ; 
+  
+}
+.header h1::first-letter{
+    font-size: 60px;
+    color:rgb(255, 81, 50);
+}
+.header button{
+    border-radius: 30px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(4, 4, 83);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 28px 100px ;
+  
+
+ 
+}
+.header{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+   
+   
+}
+.first-group{
+    width:50%;
+    height: 300px;
+    padding-top: 30px ;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 100px;
+   
+
+}
+.box1{
+    width:auto;
+}
+
+.box1 h1{
+    color: rgb(4, 4, 83);
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    white-space:pre;
+    margin-left: -5px;
+
+
+}
+.box1 p{
+    white-space: pre;
+    color: rgba(128, 128, 128, 0.819);
+    font-size: 20px;
+    margin-top: 10px;
+}
+.box1 h1::first-letter{
+    float: left; 
+    color:rgb(255, 81, 50) ; 
+    font-size: 110px;
+    line-height:100px;
+    padding-left: 0;
+    
+}
+.box1 button{
+    border-radius: 30px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(rgb(255, 81, 50) , rgba(216, 19, 203, 0.949));
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+   
+   
+}
+
+.image{
+    width:650px;
+    height: 650px;
+    position: absolute;
+    top:-110px;
+    right:-220px;
+    background-image:url(./imge/image-hero-desktop.png);
+    background-position:center;
+    background-size: cover;
+ 
+    z-index:-1;
+
+    animation: image-animation 3s linear;
+    
+    
+}
+@keyframes image-animation{
+    from{
+        top:-600px;
+        right: -600px;
+
+    }
+    to{
+        top:-110px;
+        right: -220px;
+    }
+}
+
+
+
+
+
+.part1{
+    margin-bottom: 50px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.part1 div{
+    width: 420px;
+    height:200px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 10px 10px 5px lightblue;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+
+
+}
+.part1 div:hover{
+    background-image: linear-gradient(rgba(255, 81, 50, 0.836) , rgba(216, 19, 203, 0.83));
+    transform: scale(1.10);
+
+    
+}
+.part1 div:hover a{
+    color:rgb(4, 4, 83);
+}
+.part1 div:hover p{
+    font-weight: bold;
+
+
+}
+.part1 div h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    color:  rgb(4, 4, 83);
+}
+.part1 div p{
+    color:darkgray;
+    padding-bottom: 10px;
+    
+}
+.part1 div i{
+    color:rgb(250, 244, 244);
+    width: 30px;
+    height: 30px;
+    font-size:20px;
+    background-image: linear-gradient(rgb(255, 81, 50) , rgba(216, 19, 203, 0.949));
+    border-radius: 50%;
+    text-align: center;
+    padding: 7px 7px 3px 7px;
+    position: absolute;
+    bottom:215px;
+    left: 50px;
+
+
+}
+.part1 div a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(255, 81, 50)  ;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.footer{
+    background-color:rgb(4, 4, 83);
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    
+    
+}
+.footer h1{
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color:white;
+        margin: 25px 100px ; 
+        /* padding-top: 25px; */
+    }
+.footer button{
+        border-radius: 30px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        background-image: linear-gradient(rgb(234, 50, 255) , rgba(58, 19, 216, 0.949));
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        margin: 28px 100px ;}
+ button:hover{
+        color: rgb(81, 67, 67);
+        }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    
+
+    
+    body{
+        background-color: rgba(214, 7, 162, 0.304);
+    }
+    .image{
+        width:650px;
+        height: 550px;
+        top:-88px;
+        right:-220px;
+
+    }
+
+    .part1{
+        
+        margin: 50px 20px 50px 20px;
+        width: auto;
+        display: inline-block;
+    
+    }
+    .part1 div{
+        width: 500px;
+        height:200px;
+        margin-top: 30px;
+  
+}
+
+
+
+@media screen and (max-width: 500px){
+    body{
+        background-color: rgba(0, 0, 255, 0.163);
+    }
+    
+    .header h1{
+        font-size: 20px;
+
+        margin: 5px 40px ; 
+      
+    }
+    .header h1::first-letter{
+        font-size: 40px;
+        color:rgb(255, 81, 50);
+    }
+    .header button{
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+        margin: 12px 50px ;
+      
+    
+     
+    }
+
+ 
+    
+    .box1 h1{
+        color: rgb(4, 4, 83);
+        font-size: 30px;
+        font-family: sans-serif;
+        text-transform: capitalize;
+        white-space:pre;
+        margin-left:-50px ;
+    
+    
+    }
+    .box1 p{
+
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left:-44px ;
+    }
+    .box1 h1::first-letter{
+
+        font-size: 90px;
+        line-height:75px;
+        padding-left: 0;
+        
+    }
+    .box1 button{
+
+        font-size: 15px;
+        margin-left: -50px;
+       
+       
+    }
+    
+    .image{
+        width:650px;
+        height: 650px;
+        position: absolute;
+        top:150px;
+        
+    } 
+    
+    
+    
+    .part1 .div-0{
+        margin-top: 300px;
+   
+    }
+   
+    .part1 .div-1{
+        margin-top:0;
+    }   
+ 
+    
+    .part1{
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+
+
+    .footer h1{
+            font-size: 30px;
+            margin: 50px 50px ; 
+        
+        }
+    .footer button{
+            border-radius: 30px;
+            border: none;
+            width: 150px;
+            height: 40px;
+            font-size: 15px;
+            margin: 50px 50px ;}
+
+
+
+
+
+    }
+    
+    
+}    
+    
+
+    /* ========================================login======================================== */
+
+
+
+    
