@@ -1,0 +1,114 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    position: relative;
+    margin-right: 0px;
+    overflow-x:hidden ;
+    background-color: rgba(226, 11, 11, 0.134);
+}
+.header h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(4, 4, 83);
+    margin:40px; 
+  
+}
+.header h1::first-letter{
+    font-size: 60px;
+    color:rgb(255, 81, 50);
+}
+.first-group{
+    width:30%;
+    height: 300px;
+    padding-top: 30px ;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 100px;
+    
+   
+
+}
+.box1{
+    width:auto;
+}
+
+.box1 h1{
+    color: rgb(4, 4, 83);
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    white-space:pre;
+    margin-left: -5px;
+
+
+}
+.box1 p{
+    white-space: pre;
+    color: rgba(128, 128, 128, 0.819);
+    font-size: 20px;
+    margin-top: 10px;
+}
+.box1 h1::first-letter{
+    float: left; 
+    color:rgb(255, 81, 50) ; 
+    font-size: 110px;
+    line-height:100px;
+    padding-left: 0;
+    
+}
+.box1 button{
+    border-radius: 30px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(rgb(255, 81, 50) , rgba(216, 19, 203, 0.949));
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+   
+   
+}
+
+
+
+
+
+.image{
+    width:650px;
+    height: 650px;
+    position: absolute;
+    top:-110px;
+    right:-220px;
+    background-image:url(./imge/image-hero-desktop.png);
+    background-position:center;
+    background-size: cover;
+ 
+    z-index:-1;
+
+    animation: image-animation 3s linear;
+    
+    
+}
+
+
+
+
+@keyframes image-animation{
+    from{
+        top:-600px;
+        right: -600px;
+
+    }
+    to{
+        top:-110px;
+        right: -220px;
+    }
+}
+
+
+
+
+
