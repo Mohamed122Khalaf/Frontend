@@ -1,0 +1,298 @@
+*{font-family: sans-serif;}
+
+.naav{
+    margin: 0 80px 0 80px;
+}
+.nav-par{
+ 
+    justify-content: flex-end;
+   
+    font-size: 20px;
+   
+    text-transform: uppercase;
+}
+.nav-brand2{
+    font-size: 30px;
+    font-weight: bold;
+}
+hr{
+    width: 230px;
+    border: 3px solid white;
+    margin: 50px 0 50px 0 ;
+}
+.nav-item{
+   padding-left: 30px;
+}
+
+
+header{
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+    height: 1650px;
+}
+.hone{
+    white-space: pre;
+    font-size: 80px;
+    text-transform: inherit;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+header p{
+    white-space: pre;
+    font-size: 30px;
+    text-transform: inherit;
+    padding-top: 10px;
+    margin-bottom: 0;
+
+}
+button{
+    width: 120px;
+    height: 55px;
+    margin: 40px 0 40px 0;
+}
+.bttn{
+    width: 170px;
+    height: 60px;
+    margin: -20px;
+    font-weight: bold;
+    background-color: black;
+    border: 2px solid white;
+
+}
+
+.cards1{
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-around;
+}
+.cards1 div{
+    width: 47%;
+
+}
+img{
+    width: 100%;
+    height: 70%;
+}
+
+
+.gallery-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+
+
+.gallery-1 div img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 10px;
+    z-index: 0;
+    
+}
+.gallery-1 div{
+    width: 620px;
+    height: 400px;
+    margin: 10px 10px 100px 10px;
+    border: 1px solid rgb(244, 230, 230);
+    border-radius: 10px;    
+    transition: all;
+    transition-duration:2s ;
+    transition-timing-function:ease-out;
+    
+}
+.gallery-1 div h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    background-color: red;
+
+
+}
+.gallery-1 div p{
+    background-color: rgba(9, 9, 9, 0.707);
+    font-size: 40px;
+    font-weight: bold;
+
+font-family: sans-serif;
+    width: 620px;
+    height: 400px;
+    position: relative;
+    bottom:400px;
+    border-radius: 10px;
+    
+    z-index: 555;
+    text-align: center;
+    padding-top: 170px;
+    opacity: 0;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    
+
+}
+  
+
+
+.gallery-1  div:hover p{
+    opacity: 50;
+    
+}
+
+
+.gallery-1 div:hover{
+    
+    transition-duration: 2s;
+    
+} 
+
+
+.carrds{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    
+}
+.carrds div{
+    border: none;
+    text-align: center;
+}
+.carrds img{
+   
+    height:300px;
+    border-radius:50%;
+    text-align: center;
+}
+.name{
+    font-weight: bold;
+  
+}
+h6{
+    font-weight: bold;
+    color: grey;
+}
+.carrds div p{
+    color: grey;
+}
+
+
+.items{
+    height: 700px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: black; 
+}
+.items h1{
+    font-size: 30px;
+    padding: 60px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.item1{ 
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.items-container{
+ 
+    
+    width: 1000px;
+    height: 400px;
+    
+}
+.fonts{
+    color: white;
+    font-size: 15px;
+}
+.container{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.items div div button{
+    font-size: 30px;
+
+}
+
+.card22{
+    text-align: center;
+    margin-top: 30px;
+    height: 500px;
+ 
+}
+.card22 h2{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.card22 div{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card22 div h1{
+    
+    font-size: 30px;
+    padding: 40px;
+
+}
+.card22 div div{
+    height: 300px;
+   
+}
+.card22 div div div p{
+    margin: 0;
+    font-size: 20px;
+    
+}
+.second-card{
+    background-color:#ff9285;
+    
+}
+.f-card{
+    background-color: rgba(128, 128, 128, 0.493);
+}
+
+.orange-part{
+    height: 400px;
+    background-color: #ff9285;
+    text-align: center;
+    padding: 150px;
+}
+
+.footer {
+    margin: 100px;
+    display: flex;
+    justify-content: space-around
+}
+.footer div{
+    border:2px solid white;
+    text-align: center;
+}
+.footer div a:first-child{
+    color: #ff9285;
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.f-link{
+    color: rgba(66, 66, 66, 0.826);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
