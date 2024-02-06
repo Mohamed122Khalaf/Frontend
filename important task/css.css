@@ -1,0 +1,422 @@
+*{
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+    font-family: serif;
+    
+    
+    /* overflow-x:hidden; */
+
+}
+body{
+    margin: 0;
+}
+/* nav{
+    background-color: white;
+    overflow: hidden;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: serif;
+    box-shadow: 8px 8px 5px lightblue;
+}
+nav .container{
+    width: 50%;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    margin: 30px 0;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0;
+    
+
+}
+nav a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 13px 0;
+    color: gray
+}
+nav a:hover{
+    border-bottom: 3px solid lightcoral;
+} */
+
+
+
+
+
+
+
+
+
+
+/*
+.header{
+    
+    padding: 30px 10px 30px 10px;
+    display: flex;
+    
+    gap: 350px;
+}
+.header section{
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header section .icons{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.09);
+    
+    border-radius: 50%;
+    text-align: center;
+}
+i{
+    color: grey
+}
+.header .web-name{
+    width: 50%;
+    display: flex;
+    gap: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .web-name p{
+    margin-bottom: 0px;
+    white-space: pre;
+    font-size: 16px;
+    color: rgba(128, 128, 128, 0.67);
+    font-family: serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5.6px;
+    
+    
+}
+.header .web-name p::first-line{
+    color: #ff7a5c;
+    font-size: 30px;
+    font-family: serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+.header .web-name p span {
+    color: black;
+
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    color: red;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    
+
+    background-color: rgba(128, 128, 128, 0.368)
+}
+input:focus{
+    outline: none;
+
+}
+button{
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #ff7a5c;
+    border-top-right-radius: 20px 30px;
+    border-bottom-right-radius: 20px 30px;
+    position: absolute;
+    right:100px;
+}
+*/
+
+/* .third-part{
+    width: 100%;
+    height: 700px;
+    background-image: url(./images/bg_1.jpg.webp);
+    background-position:50% 0%;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 150px 0 0 150px;
+    text-transform: capitalize;
+    
+}
+.third-part h1{
+    
+    font-size: 55px;
+    color: black;
+    white-space: pre;
+
+}
+.third-part p{
+    font-size: 20px;
+    color: gray;
+}
+.third-part button{
+    margin-top: 30px;
+    margin-left: 5px;
+    width: 180px;
+    text-transform: capitalize;
+    font-weight: bold;
+    height:60px;
+    font-size: 18px;
+}
+.third-part :nth-child(3 ){
+    background-color: #ff7a5cde;
+}
+.third-part button:hover{
+    background-color: gainsboro;
+} */
+
+             
+
+
+/* .cards-a{
+    padding: 100px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: -180px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.cards-a div{
+    width: 20%;
+    background-color: #ff7a5c;
+    
+    top: -80px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.cards-a div div:hover{
+    background-color: #a8d1fbe8;
+
+}
+.cards-a div div{
+    width: 160px;
+    background-color: rgb(248, 248, 239); 
+    height: 160px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cards-a div div i{
+    font-size: 60px;
+    color: #ff7a5c;
+}
+ */
+
+
+
+
+
+
+
+
+.counter{
+    height: 150px;
+    background-color: rgb(248, 248, 239);
+    display: flex;
+    justify-content: space-around;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.counter div{
+    width: 15%;
+    height: 150px;
+    background-color: rgb(248, 248, 239);
+    padding-top: 35px;
+    text-align: center;
+}
+.counter div h1{
+    font-family: sans-serif;
+    /* font-weight: bold; */
+}
+.counter div h6{
+    color: rgb(192, 190, 190);
+    letter-spacing: 2px;
+}
+
+
+
+
+
+.imagee{
+    height: 700px;
+    
+}
+.imagee div h5{
+    color: #ff7a5c; 
+    
+}
+.imagee div h1{
+    font-size: 50px;
+    margin-top: -50px;
+   
+}
+.imagee div p{
+    color:grey;
+    margin-top: -50px;
+   
+    font-size: 20px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bootstrap */
+nav{
+    letter-spacing: 1px;
+    font-family: serif;
+}
+nav a{
+    font-size: 14px;
+    color: rgb(96, 96, 96)
+}
+nav a:hover{
+    border-bottom: 3px solid lightcoral;
+    color: rgba(128, 128, 128, 0.823);
+}
+/* header */
+.header{ 
+    gap: 380px;
+
+}
+.header section .icons{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.09);
+}
+.header section .icons:hover{
+    background-color: #ff7a5c6d;
+
+}
+.header .web-name{
+    gap: 220px;
+}
+.header .web-name p{
+  
+    white-space: pre;
+    font-size: 11px;
+    letter-spacing: 6px;
+}
+.header .web-name p::first-line{
+    color: #ff7a5c;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+input{
+    width: 200px;
+    background-color: rgba(128, 128, 128, 0.181)
+}
+input:focus{
+    outline: none;
+}
+form button{
+    height: 56px;
+    width: 50px;
+    background-color: #ff7a5c;
+}
+.third-part{ 
+    height: 700px;
+    background-image: url(./images/bg_1.jpg.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 150px 0 0 150px;
+}
+.third-part h1{
+    font-size: 55px;
+    white-space: pre;
+}
+.third-part button{   
+    width: 180px;
+    height:60px;
+}
+.third-part :nth-child(3){
+    background-color: #ff7a5cde;
+}
+.third-part button:hover{
+    background-color: rgb(78, 75, 75);
+}
+   
+
+
+
+
+
+.cards-a{
+    padding: 100px;
+    /* height: 300px; */
+    position: relative;
+    top: -180px;
+ 
+}
+.cards-a div{
+    width: 20%;
+}
+.cards-a div div:hover{
+    background-color: #a8d1fbe8;
+
+}
+.cards-a div .icon{
+    width: 160px;
+    background-color: rgb(248, 248, 239); 
+    height: 160px;
+    text-align: center; 
+}
+.cards-a div div i{
+    font-size: 60px;
+    color: #ff7a5c;
+}
+
+
+
+
+
+
+@media(max-width: 1024px) {
+
+    .imagee div img{
+        display: none;
+    }
+}
+
